@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="head__title" >
+    <button id="check">ADD</button>
+    <h1>Expense Management</h1>
+</div>
+<hr>
+<div id="head__folder" >
+    <table>
+        <tr>
+            <th class="x1xx" id="th__numberMoney"><h3 id="numberMoney">Sum money</h3>
+                <p id="0">ADD</p>
+            </th>
+            <th class="x1xx"><h3 id="amountSpent">Amount lost</h3>
+                <button type="button" id="1"></button>
+            </th>
+            <th class="x1xx"><h3 id="negativeAmount">Negative Amount
+            </h3>
+                <button type="button" id="2"></button>
+            </th>
+            <th class="x1xx"><h3 id="remainingMoneyAmount">The remaining amount</h3>
+                <button type="button" id="3"></button>
+            </th>
+        </tr>
+    </table>
+</div>
+<hr>
+<div id="texi__input" value="true">
+    <div id="contaier__shopping" >
+        <table border="0" cellspacing="0" cellpadding="1">
+            <tr>
+                <th>
+                    <div id="QuanLyChiTieu">
+                        <h3>Mục Chi Tiêu</h3>
+                        <label>
+                            <input id="mucChiTieu" type="text">
+                        </label>
+                    </div>
+                </th>
+                <th>
+                    <div id="money" class="tex-class">
+                        <h3>Tiền Thanh Toán</h3>
+                        <label>
+                            <input id="soTienDaChi" type="number">
+                        </label>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <button id="close" type="button">Closed</button>
+                </th>
+                <th>
+                    <button id="add">Add</button>
+                </th>
+            </tr>
+        </table>
+    </div>
+</div>
+<div id="get__contaner">
+    <table border="1" cellspacing="0" cellpadding="1">
+        <thead>
+        <tr>
+            <th id="stt">STT</th>
+            <th id="danhmuc">Work
+                <select id="danhmuc__chitiet" class="display__none">
+                    <option value="search">Tìm Kiếm</option>
+                    <option value="time">Thời Gian</option>
+                    <option value="sort">Sắp Xếp</option>
+                </select>
+                <div id="id1" class="display__none" style="margin-top:2px">
+                    <label id="input__value">
+                        <input style="height: 20px" id="time__option" type="date">
+                        <button style="height: 20px" id="search">search</button>
+                    </label>
+                </div>
+            </th>
+            <th id="sotien">Amount Money</th>
+            <th id="sotienconlai">Shopping details
+            </th>
+            <th id="nhacnho">Warning</th>
+            <th id="chinhsua">Edit Contents</th>
+        </tr>
+        </thead>
+        <tbody id="x"></tbody>
+    </table>
+</div>
+<script src="Main.js"></script>
+</body>
+</html>

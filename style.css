@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* none */
+.display__none {
+    display: none;
+}
+
+div#head__title {
+    text-align: center;
+    background-image: linear-gradient(140deg, #8b8888 0%, #8e878b 50%, #565356 75%)
+    /*background-color: #a4a4a4;*/
+}
+
+div#head__folder {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#head__folder > table {
+    width: 100%;
+    background-image: linear-gradient(140deg, #797973 0%, #494e4b 50%, #969b97 75%)
+
+}
+
+div#head__folder > table > tbody > tr > th:hover {
+    background-color: #868484;
+}
+
+div#contaier__shopping {
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, red, yellow);
+}
+.newflex{
+    display: flex;
+}
+div#contaier__shopping > table > tbody > tr > th > button#add, button#close {
+    width: 100%;
+    height: 100%
+}
+div#contaier__shopping > table > tbody > tr {
+    height: 30px;
+}
+
+div#texi__input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100000;
+}
+
+/* show */
+div#get__contaner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#get__contaner > table {
+    width: 100%;
+    background-image: linear-gradient(140deg, #716c6c 0%, #636060 50%, #5d605f 75%)
+}
+
+div#get__contaner > table > tbody > tr > th {
+    width: 25%;
+    text-align: center;
+    background-image: linear-gradient(to right, #5c6bbf, #529b3a);
+}
+div#get__contaner > table > thead > tr > th {
+    height: 50px;
+    width: 20%;
+    text-align: center;
+    background-image: linear-gradient(to right, #107e98, #44418d);
+    color: rgb(255, 255, 255)
+}
+
+td.showList {
+    text-align: center;
+    height: 50px;
+    color: rgb(237, 226, 226)
+}
+
+div#get__contaner > table > tbody > tr:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+div#get__contaner > table > tbody > tr > td:hover {
+    color: black;
+}
+
+#stt{
+    width: 60px !important;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stt_{
+    color: rgb(255,255,255);
+    text-align:center;
+}
+th.x1xx{
+    width: 25%;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+textarea{
+    max-width:100%;
+    max-height:100%;
+}
